@@ -10,7 +10,7 @@ pipeline {
 		stage('Mvn package')
 		{
 			steps{
-				'mvn clean package'
+				'./mvnw -B -DskipTests clean package'
 				}
 		}
 	}
