@@ -58,7 +58,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>docker-image-expenses</finalName>
+		<finalName>image-expenses</finalName>
 	</build>
 
 </project>
